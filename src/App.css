@@ -1,38 +1,78 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body{
+  background-color: rgb(211, 211, 211);
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+header{
+  width: 1440px;
+  height: 90px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.hed-left{
+  width: 310px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.logo{
+  margin-left: 20px;
+}
+
+.hed-center{
+  width: 508px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  background-color: aliceblue;
+  border-radius: 10px;
+  padding-left: 20px;
+}
+
+.hed-center > input{
+  width: 408px;
+  height: 18px;
+  margin-left: 15px;
+  background: transparent;
+    border: none;
+}
+
+
+.hed-center > input:focus{
+  outline: none;
+}
+
+
+.search-menu{
+  margin-left: 20px;
+}
+
+.hed-right{
+  width: 242px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.hed1{
+  display: flex;
+  align-items: center;
+}
+
+.hed2{
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.hed2, .hed1 > a{
+  text-decoration: none;
+  color: black;
+  padding-left: 5px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
